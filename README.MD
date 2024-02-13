@@ -26,20 +26,24 @@
 
 ## Experiment:-
 
-In this Experiment We use an LED to understand  how an  Phototrasistor work . And due to lack of Equipment like Multimeter we use Arduino UNO R3 & program it to use it as a Voltmeter & ammeter, to Measure the Volt & current acroos the LED when a Light fall into the LED. 
+### In this Experiment We use an LED to understand  how an  Phototrasistor work . And due to lack of Equipment like Multimeter we use Arduino UNO R3 & program it to use it as a Voltmeter & ammeter, to Measure the Volt & current acroos the LED when a Light fall into the LED. 
 
 
 [ Check the Arduino  code Here ](./code.ino)
 
 <img width="280px" src="./assets/ledpin.png">
 
-We connect the  anode side of the LED in the Digital PIN .no of 13 of the  Arduino and cathode side to Ground. 
+### We connect the  anode side of the LED in the Digital PIN .no of 13 of the  Arduino and cathode side to Ground. 
+<br>
 
-Then We get the output in the Serial Monitor of Arduino IDE, the Voltage & current measured when incident light fall on the LED is displayed over in Serial Monitor.
+### Make sure to hold you Phone Torch above the LED Properly 
+<br>
+
+### Then We get the output in the Serial Monitor of Arduino IDE, the Voltage & current measured when incident light fall on the LED is displayed over in Serial Monitor.
 
 <img  src="./assets/serial.png">
 
-the varitation are over here in Voltage by changing the Density (Brightness) of the incident light(in this case Phone light)  to test & make sure that the correct voltage & current is displayed. Also to check the voltage & Current on diffrent density of light.
+### the varitation are over here in Voltage & current by changing the Density (Brightness) of the incident light(in this case Phone Torch)  to test & make sure that the correct voltage & current is displayed. Also to check the voltage & Current on diffrent density of light.
 
 <img  width ="300px" src="./assets/phonelight.jpg">
 
